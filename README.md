@@ -48,7 +48,7 @@ Say it in the chat:
 read modus_max
 ```
 
-`/modus-max` works too. The mode holds for the rest of the session; it survives task switches and other skills loading on top. It stops when you say stop. Any subagent the agent dispatches is told to read the skill first.
+`/modus-max` works too. The mode holds for the rest of the session; it survives task switches and other skills loading on top. It stops when you say stop. A subagent's brief carries the core rules even when it cannot reach the skill file, so no branch dies over a missing file.
 
 ## The gate
 
