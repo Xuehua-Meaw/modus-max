@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="modus_max — unlimited effort mode">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06060c"/>
+      <stop offset="0.55" stop-color="#0c0a1b"/>
+      <stop offset="1" stop-color="#180f2e"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffa8d6" stop-opacity="0.50"/>
+      <stop offset="0.55" stop-color="#c084fc" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fdf4ff"/>
+      <stop offset="0.42" stop-color="#ecd9ff"/>
+      <stop offset="1" stop-color="#9d7bf0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="ruleR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0abfc" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f0abfc" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#f0abfc" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#a78bfa" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <path id="petal" d="M0 0C3.4-5.2 9-5.2 11.6 0C9 5.2 3.4 5.2 0 0Z"/>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+
+  <circle cx="1012" cy="110" r="196" fill="url(#moon)">
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity="0.5" stroke="#c4b5fd" stroke-width="1.4" fill="none">
+    <path d="M44 88V52H80"/>
+    <path d="M1236 88V52H1200"/>
+    <path d="M44 272V308H80"/>
+    <path d="M1236 272V308H1200"/>
+  </g>
+
+  <text x="64" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="4" fill="#8b7fb8">SKILL / L1</text>
+  <text x="1216" y="72" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#8b7fb8">READ ONLY ON DIRECT MENTION</text>
+
+  <text x="640" y="192" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" letter-spacing="1" fill="url(#title)" filter="url(#soft)" opacity="0.4">modus_max</text>
+  <text x="640" y="192" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" letter-spacing="1" fill="url(#title)">modus_max</text>
+
+  <path d="M232 240H404" stroke="url(#rule)" stroke-width="1.2"/>
+  <path d="M876 240H1048" stroke="url(#ruleR)" stroke-width="1.2"/>
+  <text x="640" y="246" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="8" fill="#d8c9ff" opacity="0.95">UNLIMITED EFFORT MODE</text>
+
+  <g opacity="0.30" fill="#e9d5ff">
+    <text x="1160" y="158" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'MS Gothic', sans-serif" font-size="15" letter-spacing="7">モーダス</text>
+    <text x="1160" y="214" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'MS Gothic', sans-serif" font-size="15" letter-spacing="7">マックス</text>
+  </g>
+
+  <rect x="0" y="0" width="1280" height="1.4" fill="url(#scan)" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" values="0 -1; 0 360" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <g fill="#f9a8d4" opacity="0.5">
+    <g transform="translate(168 132) rotate(-24)"><use href="#petal"/></g>
+    <g transform="translate(214 268) rotate(42)" opacity="0.8"><use href="#petal"/></g>
+    <g transform="translate(1052 232) rotate(18)" opacity="0.7"><use href="#petal"/></g>
+    <g transform="translate(1112 96) rotate(-52)" opacity="0.55"><use href="#petal"/></g>
+    <g transform="translate(392 92) rotate(8)" opacity="0.45"><use href="#petal"/></g>
+    <g transform="translate(920 292) rotate(-8)" opacity="0.6"><use href="#petal"/></g>
+  </g>
+
+  <g fill="#f9a8d4" opacity="0.62">
+    <g><animateTransform attributeName="transform" type="translate" values="120 -70; 60 400" dur="13s" begin="0s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="0;260" dur="7s" begin="0s" repeatCount="indefinite"/><use href="#petal"/></g></g>
+    <g><animateTransform attributeName="transform" type="translate" values="300 -70; 236 400" dur="16s" begin="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="40;300" dur="9s" begin="2.4s" repeatCount="indefinite"/><use href="#petal"/></g></g>
+    <g><animateTransform attributeName="transform" type="translate" values="492 -70; 430 400" dur="12.5s" begin="5.1s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="10;220" dur="6.5s" begin="5.1s" repeatCount="indefinite"/><use href="#petal"/></g></g>
+    <g><animateTransform attributeName="transform" type="translate" values="700 -70; 646 400" dur="15s" begin="1.2s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="60;320" dur="8s" begin="1.2s" repeatCount="indefinite"/><use href="#petal"/></g></g>
+    <g><animateTransform attributeName="transform" type="translate" values="884 -70; 812 400" dur="11.5s" begin="6.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="0;280" dur="7.5s" begin="6.4s" repeatCount="indefinite"/><use href="#petal"/></g></g>
+    <g><animateTransform attributeName="transform" type="translate" values="1062 -70; 1010 400" dur="14s" begin="3.6s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="30;260" dur="8.5s" begin="3.6s" repeatCount="indefinite"/><use href="#petal"/></g></g>
+  </g>
+
+  <text x="640" y="316" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="6" fill="#7a6fa6">OVERCHARGE YOURSELF</text>
+</svg>
