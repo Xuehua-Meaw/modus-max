@@ -1,6 +1,6 @@
 ---
 name: modus-max
-description: "Opt-in unlimited-effort mode: no cap on steps, branches or subagents; best path over working path; delivery raised to showcase quality; persists for the session. Loads only on direct mention. Do not use for routine tasks."
+description: "Exclusive branching policy [read ONLY on direct mention]. Persistent among read. Unlimited-effort mode once loaded: uncapped steps, branches and subagents; best path over working path; delivery raised to showcase quality; shared test and render environments queued through one entry point. Do not use for routine tasks."
 ---
 
 # modus_max — 不计成本工作模式
