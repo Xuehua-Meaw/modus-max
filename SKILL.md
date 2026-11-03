@@ -1,6 +1,6 @@
 ---
 name: modus-max
-description: "Exclusive branching policy [read ONLY on direct mention]. Persistent among read. Unlimited-effort mode once loaded: uncapped steps, branches and subagents; best path over working path; delivery raised to showcase quality; shared test and render environments queued through one entry point. Do not use for routine tasks."
+description: exclusive branching policy [read ONLY on direct mention]. Persistent among read.
 ---
 
 # modus_max — unlimited-effort work mode
