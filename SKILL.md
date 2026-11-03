@@ -39,6 +39,10 @@ For this session:
 - Middle layers are temporary. Technical strategy, tooling choices and implementation routes are provisional, so probe, pick, then build the best one. Only what visibly changes the result, or truly alters intent, becomes a decision that needs confirming.
 - From now on there is no frame. Press yourself to the limit and spend the steps you saved on evidence, branches, verification and a higher delivery bar, not on filler and decoration.
 
+## Shared environment
+
+Subagents usually share one host. When several of them hit the same computation environment at once (test suites, render checks, browser control), build one entry point and queue through it, so resource allocation does not turn into a fight.
+
 ## Subagents
 
 This authorization covers everyone below you: subagents, teammates, swarms. Every dispatch prompt must tell the receiver to read this skill first.
