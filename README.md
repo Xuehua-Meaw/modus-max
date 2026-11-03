@@ -69,6 +69,10 @@ Both carry the same rules, the same eight-point execution standard, and the same
 
 Any agent the [skills CLI](https://github.com/vercel-labs/skills) supports. At the last count that was 79 of them, from Claude Code and Codex to Cursor, Copilot, Gemini CLI and Kimi.
 
+## License
+
+MIT. Fork it, ship it, sell it. Keep the copyright notice.
+
 <div align="center">
 
 ---

@@ -69,6 +69,10 @@ read modus_max
 
 [skills CLI](https://github.com/vercel-labs/skills) 支持的所有智能体都能用。最近一次统计是 79 个，包括 Claude Code、Codex、Cursor、Copilot、Gemini CLI、Kimi。
 
+## 许可证
+
+MIT。拿去用、拿去改、拿去卖都行，保留版权声明即可。
+
 <div align="center">
 
 ---
