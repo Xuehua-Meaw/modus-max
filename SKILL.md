@@ -1,6 +1,6 @@
 ---
 name: modus-max
-description: exclusive branching policy [read ONLY on direct mention]. Persistent among read.
+description: Exclusive branching policy [read ONLY on direct mention]. Persistent among read.
 ---
 
 # modus_max — unlimited-effort work mode
