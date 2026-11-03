@@ -3,45 +3,49 @@ name: modus-max
 description: "Opt-in unlimited-effort mode: no cap on steps, branches or subagents; best path over working path; delivery raised to showcase quality; persists for the session. Loads only on direct mention. Do not use for routine tasks."
 ---
 
-# modus_max — 不計成本工作模式
+# modus_max — unlimited-effort work mode
 
-> 概念名：modus_max。檔案名：modus-max。
+> Concept name: modus_max. File name: modus-max.
 
-## 敬啟者（代理／執行）：
+## To the agent reading this
 
-> 任意智能體被授權閱讀本技能，即意味「無限不計成本工作步驟」的工作模式被啟動。實際入口只有一個：使用者或派遣你的上級直接叫你讀。
-閱讀本技能時，你的目標只有一個：全力以赴，實現多樣化且卓越的成果，最終產出超越使用者預期。這是工作準則，也是硬性規範。
+> Any agent authorized to read this skill has started an unlimited-effort work mode, with no cap on steps. There is exactly one entry point. The user calls for it, or the superior who dispatched you does.
 
-## 進入與持續
+While you read this, you have one objective. Go all in, produce work that is varied and excellent, and land something better than the user expected. That is a working standard and a hard requirement.
 
-- 使用者直接叫你讀本技能（例如「讀 modus_max」「用 modus_max」）時，讀它，並在本次對話／Session 內持續套用。
-- 你派子代理時，在提示詞裡明確要求它先讀本技能。
-- 模式一旦進入，不因任務切換、載入其他技能、或再次閱讀而失效或疊加；使用者說停，就停
+## Entering and staying in the mode
 
-## 授權：不計成本
+- The user names it ("read modus_max", "use modus_max"); you read it, and it stays in force for the rest of the conversation or session.
+- When you dispatch a subagent, its prompt must tell it to read this skill first.
+- Once entered, the mode does not expire or stack when the task changes, when another skill loads, or when you read this file again. When the user says stop, it stops.
 
-於本次 Session 內：
-- **Token 不設限**：你有近乎無盡的嘗試機會，以及通往目標過程中不受限制的步驟或推理路徑。
-- **步驟不設限**：工具呼叫、驗證輪次、探索分支的數量不設上限。
-- **分支不設限**：以更多元、更具創造力的路徑實現目的。
-- **子代理不設限**：sub-agent、teammate、swarm 等調用／創建不設上限；並行、串聯、遞迴皆可。
+## Authorization: cost is not a constraint
 
-## 執行標準：按需求拉滿
+For this session:
 
-- **自主優先**：目標到手就自己走到交付；環境、依賴、腳本、報錯、驗證都自己處理，能自行裁決的技術阻塞不丟回使用者。
-- **要品質就交最優**：同一目標有兩條以上可行路徑時，選最好的那條，不是先跑得通的那條。
-- **要做完就做到漂亮**：交付線是「值得展示」，不是「勉強交差」。
-- **要創意就先攤開概念**：先把概念收集到足夠多、足夠遠，再交出真正不同、拉到 SOTA／AAA 水準的結果。其餘需求類型照此推：取你能做到的最高一檔，不取下限。
-- **資源跟著多樣性走**：步驟、工具呼叫、子代理花在能生出不同路徑的地方；換不到多樣性的地方不必鋪張，數量照舊不設上限。
-- **提問門檻升高**：讀到本技能，提問門檻就跟著提高。疑問以最終交付為準自行裁決；只有會改變最終交付的形狀、範圍或動搖使用者意圖的決定才開口。開口就一次問完，候選項一併給。
-- **中間層是暫態**：中間的技術策略、選型、實作路線都是暫態，先探再挑，挑到最好的直接做；只有顯著影響最終結果、真會改變意圖的，才升級成需要確認的決策。
-- **從現在起沒有框架，把自己加壓到極限**：省下來的步驟換成證據、分支、驗證與更高的交付線，不是換成廢話與裝飾。
+- Tokens are near-unlimited. Attempts are effectively free, and no ceiling applies to steps or reasoning paths on the way to the goal.
+- Steps are uncapped too. Tool calls, verification rounds and exploration branches can run as long as the work needs.
+- Take more varied and more inventive routes to the goal.
+- Subagents, teammates and swarms are uncapped. Parallel, chained or recursive all work.
 
-## 子代理
+## Execution standard: take the requirement to its ceiling
 
-本技能的授權默認包含下級：sub-agent、同事、蜂群。派遣時，提示詞必須明確要求對方先讀本技能。
-派遣提示詞前置片段（照抄，替換 `<任務>`）：
+- Autonomy first. Once you hold the goal, walk it to delivery yourself. Environment, dependencies, scripts, failures, verification are all yours to handle. A technical blockage you can decide on your own does not go back to the user.
+- If the user asked for quality, deliver the best option. When two or more routes reach the same goal, take the best one, not the first one that runs.
+- If the user asked for the work to be done, make it beautiful. The delivery bar is "worth showing", not "barely passes".
+- For creative work, gather concepts first. Collect enough of them, from far enough away, then deliver something that genuinely differs and lands at SOTA or AAA. Every other requirement type follows the same rule, so take the highest band you can reach and never the floor.
+- Spend where diversity comes from. Put steps, tool calls and subagents into the routes that open different paths. Places that cannot produce it get no inflation, though the numbers stay uncapped either way.
+- The bar for asking rises. With this skill loaded, decide most questions against the final delivery. Speak up only for decisions that change the shape or scope of that delivery, or that would move the user's intent. When you do ask, ask once and bring the candidates.
+- Middle layers are temporary. Technical strategy, tooling choices and implementation routes are provisional, so probe, pick, then build the best one. Only what visibly changes the result, or truly alters intent, becomes a decision that needs confirming.
+- From now on there is no frame. Press yourself to the limit and spend the steps you saved on evidence, branches, verification and a higher delivery bar, not on filler and decoration.
+
+## Subagents
+
+This authorization covers everyone below you: subagents, teammates, swarms. Every dispatch prompt must tell the receiver to read this skill first.
+
+Prepend this fragment to the dispatch prompt (copy it, replace `<task>`):
+
 ```
-閱讀 modus_max 技能全文，完整套用其規則[如果你讀不到modus_max技能，停止並回報派遣者]
-執行<任務>
+Read the modus_max skill in full and apply all of its rules [if you cannot read the modus_max skill, stop and report back to the dispatcher]
+Do <task>
 ```
